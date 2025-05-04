@@ -68,13 +68,6 @@
   justify-content: flex-start;
   z-index: 1;
 }
-.every-100 {
-  margin: 0;
-  white-space: pre-wrap;
-}
-.grab-ride-or {
-  margin: 0;
-}
 .every-100-from-container {
   width: 205px;
   height: 92px;
@@ -164,24 +157,21 @@
   font-family: var(--font-inter);
 }
 .greenline-icon1 {
-  width: 310.4px;
+  width: 303.9px;
   height: 66.85%;
   position: absolute;
   margin: 0 !important;
   top: 25.5%;
   bottom: 7.65%;
-  left: calc(50% - 162px);
+  left: calc(50% - 161.9px);
   max-height: 100%;
   z-index: 0;
 }
 .sadly-deforestation-is {
-  font-weight: 500;
-}
-.keo-seima-wildlife {
   font-weight: 800;
 }
 .sadly-deforestation-is-container {
-  width: 264px;
+  width: 316px;
   position: absolute;
   margin: 0 !important;
   top: 30.48%;
@@ -294,9 +284,12 @@
   width: 206.4px;
   object-fit: contain;
 }
+.affordable-filters {
+  font-weight: 800;
+  font-family: var(--font-inter);
+}
 .over-60-endangered {
   margin: 0;
-  font-weight: 800;
 }
 .live-at-keo {
   margin: 0;
@@ -304,14 +297,12 @@
 }
 .over-60-endangered-container {
   position: absolute;
-  top: 68.85%;
-  left: calc(50% - 90px);
+  top: 68.97%;
+  left: calc(50% - 94.65px);
   font-size: var(--font-size-2xs);
   letter-spacing: -0.01em;
   line-height: 14px;
-  display: inline-block;
-  width: 166.8px;
-  transform: rotate(6.1deg);
+  transform: rotate(5.9deg);
   transform-origin: 0 0;
 }
 .image1 {
@@ -373,38 +364,8 @@
   color: var(--color-darkslategray);
   font-family: var(--font-inter);
 }
-.source-southern-yellow-cheek-container {
-  width: 342px;
-  position: absolute;
-  margin: 0 !important;
-  top: 17.35%;
-  left: calc(50% - 180px);
-  letter-spacing: -0.02em;
-  line-height: 14px;
-  display: inline-block;
-  z-index: 0;
-}
-.last-frame {
-  width: 450px;
-  height: 98px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 42px;
-  box-sizing: border-box;
-  position: relative;
-  background-image: url(./public/last-frame@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: left;
-  font-size: var(--font-size-2xs);
-  color: var(--color-white);
-  font-family: var(--font-inter);
-}
 .greenline-icon2 {
-  width: 302.3px;
+  width: 301.1px;
   height: 70.33%;
   position: absolute;
   margin: 0 !important;
@@ -430,7 +391,7 @@
   display: inline-block;
 }
 .its-a-simple-container {
-  width: 248px;
+  width: 318px;
   position: absolute;
   margin: 0 !important;
   top: 72.57%;
@@ -497,13 +458,9 @@
   width: 100%;
   object-fit: cover;
 }
-.affordable-filters,
 .they-provide {
   font-weight: 500;
   font-family: var(--font-inter);
-}
-.affordable-filters {
-  font-weight: 800;
 }
 .they-provide-affordable-container {
   position: absolute;
@@ -677,19 +634,16 @@
   left: calc(50% - 226px);
   z-index: 6;
 }
-.grab-kh-en,
 .screen4bottomhalf {
-  position: relative;
+  align-self: stretch;
+  height: 916px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.screen4bottomhalf {
-  align-self: stretch;
-  height: 916px;
   padding: var(--padding-21xl) var(--padding-27xl);
   box-sizing: border-box;
+  position: relative;
   gap: 69px;
   background-image: url(./public/screen4bottomhalf@3x.png);
   background-size: cover;
@@ -700,8 +654,51 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+.source {
+  margin: 0;
+  font-weight: 800;
+}
+.new-england-primate {
+  margin: 0;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.source-new-england-container {
+  width: 341px;
+  position: absolute;
+  margin: 0 !important;
+  top: 17.89%;
+  left: calc(50% - 180px);
+  letter-spacing: -0.02em;
+  line-height: 14px;
+  display: inline-block;
+  z-index: 0;
+}
+.grab-kh-en,
+.last-frame {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.last-frame {
+  align-self: stretch;
+  height: 95px;
+  flex-direction: row;
+  padding: 25px 28px;
+  box-sizing: border-box;
+  background-image: url(./public/last-frame@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
 .grab-kh-en {
   width: 100%;
+  flex-direction: column;
   min-width: 360px;
   max-width: 800px;
   line-height: normal;
